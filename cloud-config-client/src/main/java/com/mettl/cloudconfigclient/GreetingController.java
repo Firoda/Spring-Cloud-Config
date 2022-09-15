@@ -15,7 +15,7 @@ public class GreetingController {
     @Value("$mpaas-gateway.props{sso.whitelisted.clientIds}")
     private String clientIds;
 
-    @Value("")
+
 
 
     @GetMapping("/greeting")
